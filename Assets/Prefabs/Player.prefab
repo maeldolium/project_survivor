@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6460192100714421849}
   - component: {fileID: 8597496993252093282}
   - component: {fileID: 2356358697627715929}
+  - component: {fileID: -8251276895919368297}
   - component: {fileID: 5452610783055321140}
   m_Layer: 3
   m_Name: Player
@@ -145,6 +146,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   movementSpeed: 5
   rotationSpeed: 720
+--- !u!114 &-8251276895919368297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901809902070394859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c545a7e7da55cdd49b0aa3803990a5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  currentHealth: 2
 --- !u!54 &5452610783055321140
 Rigidbody:
   m_ObjectHideFlags: 0

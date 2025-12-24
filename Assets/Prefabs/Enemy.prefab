@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 5414785628459625804}
   - component: {fileID: 4338367825941949750}
   - component: {fileID: -1649361066441478298}
+  - component: {fileID: -1250574499593798032}
   - component: {fileID: 2119762839570371776}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,6 +129,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   speed: 5
   rotationSpeed: 720
+--- !u!114 &-1250574499593798032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724535439885617653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c545a7e7da55cdd49b0aa3803990a5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  currentHealth: 2
 --- !u!54 &2119762839570371776
 Rigidbody:
   m_ObjectHideFlags: 0
